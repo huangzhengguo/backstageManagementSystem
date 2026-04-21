@@ -1,1 +1,0 @@
-import{s as e}from"./index-B-aH_eah.js";const r="api/unit/";function u(){return e({url:r+"list",method:"get"})}function n(t){return e({url:r+"create",method:"post",data:t})}function o(t){return e({url:r+"update",method:"post",data:t})}function s(t){return e({url:r+"delete",method:"delete",params:{id:t}})}export{n as c,s as d,u as l,o as u};

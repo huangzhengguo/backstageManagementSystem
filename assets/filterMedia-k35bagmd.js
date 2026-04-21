@@ -1,1 +1,0 @@
-import{s as t}from"./index-B-aH_eah.js";const r="api/filter_media/";function u(e){return t({url:r+"list",method:"get",params:{brand:e}})}function s(e){return t({url:r+"create",method:"post",data:e})}function n(e){return t({url:r+"update",method:"put",data:e})}function o(e){return t({url:r+"delete",method:"delete",params:{id:e}})}export{s as c,o as d,u as l,n as u};
