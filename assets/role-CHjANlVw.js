@@ -1,0 +1,1 @@
+import{s as t}from"./index-B-aH_eah.js";const r="api/account/role/";function o(e=null){return t({url:r+"get",method:"get",params:{name:e}})}function u(e){return t({url:r+"create",method:"post",data:e})}function n(e){return t({url:r+"update",method:"post",data:e})}function s(e){return t({url:r+"delete",method:"delete",params:{id:e}})}export{u as c,s as d,o as g,n as u};

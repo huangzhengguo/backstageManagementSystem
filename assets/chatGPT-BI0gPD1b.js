@@ -1,1 +1,0 @@
-import{s as r}from"./index-CBi_fMdT.js";const s="api/chatgpt/";function o(t,a){return r({url:s+"list",method:"get",params:{page:t,pageSize:a}})}function c(t){return r({url:s+"chat",method:"post",data:t})}export{c,o as l};
