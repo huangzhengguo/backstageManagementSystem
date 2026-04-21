@@ -1,0 +1,1 @@
+import{s as t}from"./index-CBi_fMdT.js";const r="api/supplier/";function u(){return t({url:r+"list",method:"get"})}function s(e){return t({url:r+"create",method:"post",data:e})}function o(e){return t({url:r+"update",method:"post",data:e})}function n(e){return t({url:r+"delete",method:"delete",params:{id:e}})}export{s as c,n as d,u as l,o as u};
