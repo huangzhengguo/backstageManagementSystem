@@ -1,1 +1,0 @@
-import{s as t}from"./index-D3F0Js4p.js";const r="api/sale_type/";function s(){return t({url:r+"list",method:"get"})}function u(e){return t({url:r+"create",method:"post",data:e})}function o(e){return t({url:r+"update",method:"post",data:e})}function n(e){return t({url:r+"delete",method:"delete",params:{id:e}})}export{u as c,n as d,s as l,o as u};
