@@ -1,0 +1,1 @@
+import{s as e}from"./index-D3F0Js4p.js";const a="api/bom/";function u(t,r){return e({url:a+"bom_detail",method:"get",params:{id:t,version:r}})}function n(t){return e({url:a+"detail",method:"get",params:{code:t}})}function s(t){return e({url:a+"create",method:"post",data:t})}function d(t){return e({url:a+"update",method:"post",data:t})}export{u as b,s as c,n as d,d as u};

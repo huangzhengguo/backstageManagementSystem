@@ -1,0 +1,1 @@
+import{s as e}from"./index-D3F0Js4p.js";const r="api/city/";function u(){return e({url:r+"list",method:"get"})}function o(t){return e({url:r+"create",method:"post",data:t})}function s(t){return e({url:r+"update",method:"post",data:t})}function n(t){return e({url:r+"delete",method:"delete",params:{id:t}})}export{o as c,n as d,u as l,s as u};

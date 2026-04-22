@@ -1,0 +1,1 @@
+import{s as e}from"./index-D3F0Js4p.js";const r="api/stock_in_type/";function o(){return e({url:r+"list",method:"get"})}function s(t){return e({url:r+"create",method:"post",data:t})}function u(t){return e({url:r+"update",method:"post",data:t})}function n(t){return e({url:r+"delete",method:"delete",params:{id:t}})}export{s as c,n as d,o as l,u};
