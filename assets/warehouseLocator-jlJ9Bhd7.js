@@ -1,0 +1,1 @@
+import{s as t}from"./index-hKfp7vqr.js";const r="api/warehouse_locator/";function o(e){return t({url:r+"list",method:"get",params:{warehouseId:e}})}function s(e){return t({url:r+"create",method:"post",data:e})}function u(e){return t({url:r+"update",method:"post",data:e})}function n(e){return t({url:r+"delete",method:"delete",params:{id:e}})}export{s as c,n as d,o as l,u};
