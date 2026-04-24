@@ -1,1 +1,0 @@
-import{s as t}from"./index-hKfp7vqr.js";const r="api/account/group/";function u(e=null){return t({url:r+"list_tree",method:"get",params:{name:e}})}function o(e){return t({url:r+"create",method:"post",data:e})}function n(e){return t({url:r+"update",method:"post",data:e})}function s(e){return t({url:r+"delete",method:"delete",params:{id:e}})}export{o as c,s as d,u as g,n as u};
